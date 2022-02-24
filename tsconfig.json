@@ -6,6 +6,7 @@
         "outDir": "./dist",
         "strictNullChecks": true,
         "noEmitOnError": true, //错误时不生成编译结果
+        "moduleResolution": "node", //模块解析策略 node classic
         "removeComments": true,// 编译结果移除注释
         "esModuleInterop": true,//启用es模块化交互非es模块导出
         "noImplicitUseStrict": true,//编译结果中不包含"use strict"
